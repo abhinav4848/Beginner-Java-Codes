@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Try()
+comment1.params=f\ i
+comment1.target=Try(float,\ int)
+comment2.params=obj
+comment2.target=float\ convertToFeet(Try)
+comment3.params=obj
+comment3.target=int\ convertToInches(Try)
+comment4.target=String\ Distance()
+comment5.target=void\ TryTest()
+numComments=6

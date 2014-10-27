@@ -1,0 +1,30 @@
+#BlueJ class context
+comment0.target=void\ help()
+comment1.target=void\ bye()
+comment10.target=void\ question4()
+comment11.target=void\ question5()
+comment12.target=void\ question6()
+comment13.target=void\ question7()
+comment14.target=void\ question8()
+comment15.target=void\ question9()
+comment16.target=void\ question10()
+comment17.target=void\ question11()
+comment18.target=void\ question12()
+comment19.target=void\ question13()
+comment2.params=ch
+comment2.target=void\ helpLine(int)
+comment20.target=void\ question14()
+comment21.target=void\ question15()
+comment22.params=args
+comment22.target=void\ main([)
+comment22.text=public\ static\ void\ questionDemo()throws\ IOException\n{\nBufferedReader\ ak\=new\ BufferedReader(new\ InputStreamReader(System.in));\nint\ ch\=(int)(Math.random()*1);\ncash\="0,000";\nSystem.out.println("----Question\ Prototype----");\nif(ch\=\=0)\n{\nans\=;\nfor51\=;\nSystem.out.println("");\ncor1\="1\:\ ";\ cor2\="2\:\ ";\ cor3\="3\:\ ";\ cor4\="4\:\ ";\nfor50\=cor;\nphone\=cor+"\ Definitely.";\naud1\=cor1+"-\ %";\naud2\=cor2+"-\ %";\naud3\=cor3+"-\ %";\naud4\=cor4+"-\ %";\n}\nSystem.out.println(cor1+"\\n"+cor2+"\\n"+cor3+"\\n"+cor4);\ncarryon();\n}\n\n
+comment3.target=void\ carryon()
+comment4.params=ans1\ ans2\ ans3\ ans4\ rite
+comment4.target=void\ confFastestFinger(int,\ int,\ int,\ int,\ int)
+comment5.target=void\ fastestFinger()
+comment6.params=ans\ entAns
+comment6.target=void\ checker(int,\ int)
+comment7.target=void\ question1()
+comment8.target=void\ question2()
+comment9.target=void\ question3()
+numComments=23
