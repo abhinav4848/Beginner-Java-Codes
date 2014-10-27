@@ -2,9 +2,9 @@
 This is the project README file.
 ------------------------------------------------------------------------
 
-PROJECT TITLE:            Experiment
+PROJECT TITLE:            Beginner Java Codes
 PURPOSE OF PROJECT:       Help the world.
 VERSION or DATE:          28/4/10
-HOW TO START THIS PROJECT:With Maths Helper.
+HOW TO START THIS PROJECT:With BlueJ or some IDE
 AUTHOR:                   Abhinav Kumar.
-USER INSTRUCTIONS:        Don't delete anything nor modify it.
+USER INSTRUCTIONS:        Go ahead. Fork and Play with it.
