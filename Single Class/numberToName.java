@@ -12,7 +12,7 @@ public class numberToName
     public static void main(String args[])throws IOException
     {
         BufferedReader ak=new BufferedReader(new InputStreamReader(System.in));
-        System.out.println("Enter a whole Number upto 9 digits");
+        System.out.println("Enter a whole Number upto 10 digits");
         String name=ak.readLine();
         FindName(name);
     }
@@ -22,10 +22,11 @@ public class numberToName
         int len=name.length();
         int m[]=new int[len];
         String ans[]=new String[len];
-        System.out.println("Name:"+name);
+        System.out.println("Number: "+name);
         name=name.toLowerCase();
         for(i=0; i<len; i++)
         {
+            //Alloting each consecutive value of array with each consecutive value from input.
             m[i]=name.charAt(i);
         }
         for(i=0; i<len; i++)
@@ -33,43 +34,46 @@ public class numberToName
             switch(m[i])
             {
                 case ' ':
-                    ans[i]=" ";
+                    ans[i]="";
                     break;
                 case '1':
-                    ans[i]="One";
+                    ans[i]="One ";
                     break;
                case '2':
-                    ans[i]="Two";
+                    ans[i]="Two ";
                     break;
                case '3':
-                    ans[i]="Three";
+                    ans[i]="Three ";
                     break;
                case '4':
-                    ans[i]="Four";
+                    ans[i]="Four ";
                     break;
                case '5':
-                    ans[i]="Five";
+                    ans[i]="Five ";
                     break;
                case '6':
-                    ans[i]="Six";
+                    ans[i]="Six ";
                     break;
                case '7':
-                    ans[i]="Seven";
+                    ans[i]="Seven ";
                     break;
                case '8':
-                    ans[i]="Eight";
+                    ans[i]="Eight ";
                     break;
                case '9':
-                    ans[i]="Nine";
+                    ans[i]="Nine ";
                     break;
                case '0':
-                    ans[i]="Zero";
+                    ans[i]="Zero ";
                     break;
-                }
+               default:
+                    ans[i]="? ";
+                    break;
+             }
           }
            for(i=0; i<len; i++)
         {
-                System.out.println(ans[i]);
+                System.out.print(ans[i]);
         }
     }
 }
