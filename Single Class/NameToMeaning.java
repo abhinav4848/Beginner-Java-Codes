@@ -163,7 +163,7 @@ public class NameToMeaning
                     ans[i]="Zoroastrian";
                     break;
                 default:
-                    ans[i]="Unknown";
+                    ans[i]=(char)m[i]+": Unknown";
                     break;
             }
         }
