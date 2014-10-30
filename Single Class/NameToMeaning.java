@@ -1,6 +1,6 @@
-//No Idea what i'm making.
+//Write your name and it will covert each letter to word.
 import java.io.*;
-public class FunStuff
+public class NameToMeaning
 {
     public static void main(String args[])throws IOException
     {
@@ -64,7 +64,11 @@ public class FunStuff
                         ans[i]="Courageous";
                     break;
                 case 'd':
-                    ans[i]="Dependable";
+                    d=(int)(Math.random()*2);
+                    if(d==0)
+                        ans[i]="Desirable";
+                    if(d==1)
+                        ans[i]="Dependable";
                     break;
                 case 'e':
                     d=(int)(Math.random()*3);

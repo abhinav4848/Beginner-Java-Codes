@@ -118,7 +118,9 @@ public class KaunBanegaCrorepati
                     String programmer=ak.readLine();
                     programmer=programmer.toLowerCase();
                     String actProgrammer="abhinav";
-                    if(programmer.compareTo(actProgrammer)==0)
+                    String actProgrammer1="abhinav kumar";
+                    String actProgrammer2="buldo";
+                    if(programmer.compareTo(actProgrammer)==0||programmer.compareTo(actProgrammer1)==0||programmer.compareTo(actProgrammer2)==0) //Could be Better! Help me with smarter code. This and 3 lines above this.
                     {
                          System.out.println("--Congratulations, you made it.--");
                          System.out.print("The answer is: ");

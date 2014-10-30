@@ -1,4 +1,6 @@
 #BlueJ class context
 comment0.params=args
 comment0.target=void\ main([)
-numComments=1
+comment1.params=name
+comment1.target=void\ FindName(String)
+numComments=2
